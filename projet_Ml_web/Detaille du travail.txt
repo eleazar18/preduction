@@ -1,0 +1,7 @@
+notre algorithme consiste a predire un somme d'argent qu'on depassera dans un hotel a mutwanga en mettant certain critaires de condition de vie qui sont:
+
+1. choisir une class de chambre: high class, moyenne class
+2. avoir un(e) servent pour faire la proprete des se biens
+3. prendre le petit dejeune chaque matin
+4. prendre la soupe chaque soir
+5. nombre de sejours dans l'hotel.

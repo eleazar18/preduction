@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>forme</title>
+</head>
+<body>
+    <h1>Quelle Condition Voulez-vs?</h1>
+        <form action="/hotel/predire/" method="POST">
+            {% csrf_token %}
+            <label>Niveau de Chambre</label>
+            <br><br>
+            <input type="radio" name="niv_classe" value="1">High class</input>
+            <input type="radio" name="niv_classe" value="2">Main class</input>
+            <br><br>
+            <label> Besin d Servent (e)</label>
+            <br><br>
+            <input type="radio" name="servent" value="1">Oui</input>
+            <input type="radio" name="servent" value="2">Non</input>
+            <br><br>
+            <label>Petit dejeune</label>
+            <br><br>
+            <input type="radio" name="dejeune" value="1">Oui</input>
+            <input type="radio" name="dejeune" value="2">Non</input>
+            <br><br>
+            <label>Soupe</label>
+            <br><br>
+            <input type="radio" name="soupe" value="1">Oui</input>
+            <input type="radio" name="soupe" value="2">Non</input>
+            <br><br>
+            <label>Nombre de Sejours</label>
+            <input type="number" name="nbr_sejours"/>
+            <br><br>
+            
+            
+            <input type="submit" value="predire"/>
+        </form>
+</body>
+</html>
